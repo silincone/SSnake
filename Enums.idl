@@ -1,0 +1,16 @@
+namespace SSnake
+{
+	enum GAME_MODE
+	{
+		EASY = 0,
+		DIFFICULT = 1
+	};
+
+	enum GAME_STATE
+	{
+		NOT_STARTED = 0,
+		PLAYING = 1,
+		PAUSED = 2,
+		GAME_OVER = 3
+	};
+}

@@ -1,0 +1,8 @@
+namespace SSnake
+{
+    [default_interface]
+    runtimeclass PlayGround : Microsoft.UI.Xaml.Controls.Page
+    {
+        PlayGround();
+    }
+}

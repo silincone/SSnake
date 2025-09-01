@@ -1,0 +1,10 @@
+.vs
+AppPackages
+Generated Files
+packages
+Release
+SSnake
+x64
+readme.txt
+SSnake_TemporaryKey.pfx
+SSnake.vcxproj.user

@@ -1,0 +1,15 @@
+namespace SSnake
+{
+    [bindable]
+    [default_interface]
+    runtimeclass GameMode 
+    {
+        GameMode();
+        GameMode(String modeName, String imagePath);
+
+        String ModeName{ get; set; };
+        String ImagePath{ get; set; };
+
+        void SetGameModeData(String modeName, String imagePath);
+    }
+}

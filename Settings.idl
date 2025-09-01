@@ -1,0 +1,13 @@
+import "Enums.idl";
+
+namespace SSnake
+{
+    [default_interface]
+    runtimeclass Settings : Microsoft.UI.Xaml.Controls.Page
+    {
+        Settings();
+        
+        GAME_MODE get_game_mode();
+        void select_game_mode(GAME_MODE mode);
+    }
+}
